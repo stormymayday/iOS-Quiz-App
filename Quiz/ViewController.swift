@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     let questions: [String] = ["What is 2 x 2?", "What is 5 - 3?", "What is 5 x 5?"]
     
+    let answers: [String] = ["4", "2", "25"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
