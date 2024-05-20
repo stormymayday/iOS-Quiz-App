@@ -54,6 +54,7 @@
                     </view>
                     <connections>
                         <outlet property="QuestionLabel" destination="MPZ-KI-4ke" id="fGG-eh-y7H"/>
+                        <outlet property="answerLabel" destination="v3n-zm-QO3" id="Exc-mn-qnb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
