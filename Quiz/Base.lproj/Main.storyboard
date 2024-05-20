@@ -16,25 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3n-zm-QO3">
-                                <rect key="frame" x="184" y="84" width="25" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3n-zm-QO3">
+                                <rect key="frame" x="184" y="389" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tra-3I-6jH">
-                                <rect key="frame" x="130" y="113" width="133" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tra-3I-6jH">
+                                <rect key="frame" x="130" y="159" width="133" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next Question"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPZ-KI-4ke">
-                                <rect key="frame" x="184" y="312" width="25" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPZ-KI-4ke">
+                                <rect key="frame" x="184" y="130" width="25" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6z-fc-TMW">
-                                <rect key="frame" x="133" y="341" width="127" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i6z-fc-TMW">
+                                <rect key="frame" x="133" y="418" width="127" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show Answer"/>
                             </button>
@@ -42,16 +42,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tra-3I-6jH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q3I-uI-rlb"/>
-                            <constraint firstItem="v3n-zm-QO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cfX-9K-DLf"/>
-                            <constraint firstItem="i6z-fc-TMW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qZN-h9-6IT"/>
-                            <constraint firstItem="MPZ-KI-4ke" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vXe-OH-tg2"/>
+                            <constraint firstItem="i6z-fc-TMW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="9.5" id="5A9-p8-pxn"/>
+                            <constraint firstItem="i6z-fc-TMW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cth-tg-U55"/>
+                            <constraint firstItem="tra-3I-6jH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DwD-fb-kwZ"/>
+                            <constraint firstItem="v3n-zm-QO3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KFF-DR-PTG"/>
+                            <constraint firstItem="v3n-zm-QO3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-26.5" id="Wz3-RN-Ek3"/>
+                            <constraint firstItem="MPZ-KI-4ke" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dh5-zJ-FZg"/>
+                            <constraint firstItem="tra-3I-6jH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-249.5" id="f41-pB-XK1"/>
+                            <constraint firstItem="MPZ-KI-4ke" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-285.5" id="hXV-lX-58C"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-18" y="-27"/>
+            <point key="canvasLocation" x="-19.083969465648853" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
