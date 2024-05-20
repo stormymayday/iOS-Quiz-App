@@ -24,6 +24,27 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showNextQuestion(_ sender: UIButton) {
+        
+        // Incrementing the index
+        currentQuestionIndex += 1
+        
+        // Checking if it is the last question
+        if currentQuestionIndex == questions.count {
+            
+            // Resetting the index
+            currentQuestionIndex = 0
+            
+        }
+        
+        // Getting question from the array using index value
+        let question: String = questions[currentQuestionIndex]
+        
+        // Setting the question label value
+        questionLabel.text = question
+        
+        // Setting the answer label to '???'
+        answerLabel.text = "???"
+        
     }
     
     @IBAction func showAnswer(_ sender: UIButton) {
