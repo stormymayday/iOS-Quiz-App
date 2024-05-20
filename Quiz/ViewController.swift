@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     let answers: [String] = ["4", "2", "25"]
     
+    var currentQuestionIndex: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
