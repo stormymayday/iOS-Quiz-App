@@ -48,6 +48,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAnswer(_ sender: UIButton) {
+        
+        // Getting answer from the answers array using index value
+        let answer: String = answers[currentQuestionIndex]
+         
+        // Setting the answer label
+        answerLabel.text = answer
+        
     }
 }
 
