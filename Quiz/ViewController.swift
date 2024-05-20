@@ -20,5 +20,7 @@ class ViewController: UIViewController {
     @IBAction func showNextQuestion(_ sender: UIButton) {
     }
     
+    @IBAction func showAnswer(_ sender: UIButton) {
+    }
 }
 
