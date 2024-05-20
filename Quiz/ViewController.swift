@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var answerLabel: UILabel!
     
+    let questions: [String] = ["What is 2 x 2?", "What is 5 - 3?", "What is 5 x 5?"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
