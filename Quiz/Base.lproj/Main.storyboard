@@ -52,6 +52,9 @@
                             <constraint firstItem="MPZ-KI-4ke" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-285.5" id="hXV-lX-58C"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="QuestionLabel" destination="MPZ-KI-4ke" id="fGG-eh-y7H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
